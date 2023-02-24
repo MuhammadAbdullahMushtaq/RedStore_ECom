@@ -273,6 +273,13 @@ ul{
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
+    -webkit-transition: -webkit-scrollbar;
+    -webkit-transition: -webkit-scrollbar-button; 
+    -webkit-transition: -webkit-scrollbar-track;
+    -webkit-transition: -webkit-scrollbar-track-piece ;
+    -webkit-transition: -webkit-scrollbar-thumb;
+    -webkit-transition: -webkit-scrollbar-corner ;
+    -webkit-transition: -webkit-resizer;
 }
 .back-to-top .btn-dark:hover {
     cursor: pointer;
